@@ -97,15 +97,15 @@ const Index = () => {
     
     if (size <= 0) {
   toast({
-    title: "Invalid input",
+    title: "HELLO HELLO",
     description: "Size must be greater than 0.",
     variant: "destructive"
   });
   return;
-} else if (size > stats.free) { // Add this condition
+} else if (size > stats.free) { // Use stats.free instead of undefined variable
   toast({
     title: "Insufficient memory",
-    description: `Size exceeds available free memory (${free} units).`,
+    description: `Size exceeds available free memory (${stats.free} bytes).`,
     variant: "destructive"
   });
   return;
