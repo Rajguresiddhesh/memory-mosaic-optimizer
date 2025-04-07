@@ -97,7 +97,7 @@ const Index = () => {
     
     if (size <= 0) {
   toast({
-    title: "HELLO HELLO",
+    title: "Invalid input",
     description: "Size must be greater than 0.",
     variant: "destructive"
   });
