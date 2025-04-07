@@ -94,6 +94,14 @@ const Index = () => {
     }
 
     const size = typeof memorySize === 'number' ? memorySize : 0;
+    if (size >= processtoFree) {
+      toast({
+        title: "Error",
+        description: "Memory size should be less than or equal tp free memory",
+        variant: "destructive"
+      });
+      return;
+    }
     
     if (size <= 0) {
       toast({
