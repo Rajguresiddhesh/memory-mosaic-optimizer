@@ -103,6 +103,14 @@ const Index = () => {
       });
       return;
     }
+    else if (size > freeMemory) {
+  toast({
+    title: "Insufficient memory",
+    description: `Value exceeds available free memory (${freeMemory} units).`,
+    variant: "destructive"
+  });
+  return;
+}
     
     if (!processId.trim()) {
       toast({
