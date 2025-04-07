@@ -96,17 +96,16 @@ const Index = () => {
     const size = typeof memorySize === 'number' ? memorySize : 0;
     
     if (size <= 0) {
-      toast({
-        title: "Invalid input",
-        description: "Size must be greater than 0.",
-        variant: "destructive"
-      });
-      return;
-    }
-    else if (size > availableFreeMemory) {
+  toast({
+    title: "Invalid input",
+    description: "Size must be greater than 0.",
+    variant: "destructive"
+  });
+  return;
+} else if (size > availableFreeMemory) { // Add this condition
   toast({
     title: "Insufficient memory",
-    description: `Value exceeds available free memory (${freeMemory} units).`,
+    description: `Size exceeds available free memory (${availableFreeMemory} units).`,
     variant: "destructive"
   });
   return;
