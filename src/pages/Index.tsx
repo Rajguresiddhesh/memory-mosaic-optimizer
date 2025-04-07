@@ -36,7 +36,7 @@ const Index = () => {
   const [showCompactionDialog, setShowCompactionDialog] = useState(false);
   const [smallFragments, setSmallFragments] = useState(0);
   const [totalSmallFragmentSize, setTotalSmallFragmentSize] = useState(0);
-  const [compactionThreshold, setCompactionThreshold] = useState(4);
+  const [compactionThreshold, setCompactionThreshold] = useState(4000);
   
   const logContainerRef = useRef<HTMLDivElement>(null);
 
