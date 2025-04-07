@@ -102,10 +102,10 @@ const Index = () => {
     variant: "destructive"
   });
   return;
-} else if (size > availableFreeMemory) { // Add this condition
+} else if (size > block.free) { // Add this condition
   toast({
     title: "Insufficient memory",
-    description: `Size exceeds available free memory (${availableFreeMemory} units).`,
+    description: `Size exceeds available free memory (${block.free} units).`,
     variant: "destructive"
   });
   return;
