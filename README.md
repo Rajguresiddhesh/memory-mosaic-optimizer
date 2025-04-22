@@ -1,10 +1,11 @@
 # Welcome to Memory Allocation simulator
 
 
-##Project Overview
+# Project Overview
+
 A sophisticated web application that simulates memory management techniques used in operating systems, providing an interactive visualization of how memory allocation and deallocation work.
 
-##Key Features
+# Key Features
 Memory Initialization
 
 Set total memory size dynamically
