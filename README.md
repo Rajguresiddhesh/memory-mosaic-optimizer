@@ -1,7 +1,10 @@
 # Welcome to Memory Allocation simulator
 
-Key Features
 
+##Project Overview
+A sophisticated web application that simulates memory management techniques used in operating systems, providing an interactive visualization of how memory allocation and deallocation work.
+
+##Key Features
 Memory Initialization
 
 Set total memory size dynamically
@@ -29,24 +32,21 @@ Fragmentation percentage
 Total, used, and free memory tracking
 Comprehensive Logging
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/12e04405-d39d-4e4f-98fa-1810555d4679) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Timestamped operation logs
+Color-coded log entries (info, success, error)
+Auto-scrolling log container
+Technical Stack
+React
+TypeScript
+Tailwind CSS
+Shadcn UI
+Vite
+Learning Outcomes
+Understanding memory allocation algorithms
+Implementing complex state management
+Creating interactive data visualizations
+Handling dynamic UI updates
+Potential Improvements
+Add more advanced memory management techniques
+Implement process priority
+Create export/import memory state functionality
