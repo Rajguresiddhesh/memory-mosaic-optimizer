@@ -51,3 +51,6 @@ Potential Improvements
 Add more advanced memory management techniques
 Implement process priority
 Create export/import memory state functionality
+
+# Deployment link: https://memory-allocation-os.vercel.app/
+
