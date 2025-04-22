@@ -1,54 +1,33 @@
-# Welcome to your Lovable project
+# Welcome to Memory Allocation simulator
 
-## Project info
+Key Features
 
-**URL**: https://lovable.dev/projects/12e04405-d39d-4e4f-98fa-1810555d4679
+Memory Initialization
 
-## How can I edit this code?
+Set total memory size dynamically
+Initialize memory with a single command
+Multiple Allocation Strategies
 
-There are several ways of editing your application.
+First Fit
+Next Fit
+Best Fit
+Worst Fit
+Real-time Memory Visualization
 
-**Use Lovable**
+Graphical representation of memory blocks
+Color-coded memory states (free/allocated)
+Dynamic next-fit pointer tracking
+Advanced Memory Management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/12e04405-d39d-4e4f-98fa-1810555d4679) and start prompting.
+Process-based memory allocation
+Memory fragmentation detection
+Automatic memory compaction
+Detailed Statistics
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Real-time memory usage statistics
+Fragmentation percentage
+Total, used, and free memory tracking
+Comprehensive Logging
 
 ## What technologies are used for this project?
 
