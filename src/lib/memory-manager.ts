@@ -141,13 +141,13 @@ export class MemoryManager {
     this.memory[idx].free = false;
     this.memory[idx].pid = pid;
     
-    // Update next fit pointer for subsequent allocations
-  //   if (type === "next") {
-  //     this.nextFitIndex = (idx + 1) % this.memory.length;
-  //   }
+    Update next fit pointer for subsequent allocations
+    // if (type === "next") {
+      this.nextFitIndex = (idx + 1) % this.memory.length;
+    // }
     
-  //   return true;
-  // }
+    return true;
+  }
 
   deallocate(pid: string) {
     for (let i = 0; i < this.memory.length; i++) {
