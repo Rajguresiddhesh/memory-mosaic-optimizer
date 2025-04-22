@@ -146,7 +146,7 @@ export class MemoryManager {
       this.nextFitIndex = (idx + 1) % this.memory.length;
     // }
     
-    return true;
+    // return true;
   }
 
   deallocate(pid: string) {
